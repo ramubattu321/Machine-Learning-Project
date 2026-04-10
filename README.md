@@ -1,70 +1,88 @@
-# Machine Learning Practice using Python
+# Machine Learning for Production Data Analysis
 
 ## Overview
 
-This repository contains practice implementations of fundamental machine learning algorithms using Python and Jupyter Notebook. The goal of this project is to explore and understand different machine learning techniques including regression, classification, and data preprocessing.
+This project focuses on applying machine learning and statistical techniques to analyze production data in manufacturing systems. The goal is to improve prediction accuracy, identify patterns, and support data-driven decision-making for operational efficiency and quality improvement.
 
-The notebooks demonstrate how machine learning models are implemented, trained, and visualized using real datasets.
+Production environments generate large volumes of data such as defect rates, machine performance, and environmental conditions. This project demonstrates how machine learning models can be used to extract insights from such data and enhance process optimization.
 
-## Technologies Used
+---
+
+## Research Contribution
+
+This work was presented at the **California Central Valley Research Symposium (2026)** at California State University, Fresno.
+
+The research investigates the role of machine learning algorithms in production data analysis and highlights their effectiveness in solving real-world industrial problems.
+
+---
+
+## Objective
+
+* Analyze production and manufacturing data to identify trends and relationships
+* Develop predictive models for defect detection and performance forecasting
+* Compare multiple machine learning algorithms based on performance
+* Evaluate the impact of data quality and preprocessing on model accuracy
+
+---
+
+## Methods & Models
+
+The project explores a range of statistical and machine learning techniques:
+
+* **Regression Models**: Linear and multiple regression for predicting continuous outcomes
+* **Decision Tree & Random Forest**: Tree-based models for classification and prediction
+* **Support Vector Machine (SVM)**: Classification using optimal decision boundaries
+* **Gradient Boosting**: Ensemble method that improves prediction by minimizing errors
+* **Data Preprocessing**: One-hot encoding and feature preparation techniques
+
+These models were implemented and evaluated using Python-based tools.
+
+---
+
+## Results
+
+* Ensemble methods such as **Gradient Boosting demonstrated better performance** in capturing complex patterns within production data
+* Model performance varied depending on data quality, feature selection, and noise
+* Some models showed reduced reliability due to limitations such as small sample size and noisy datasets
+* The study highlights the importance of selecting appropriate models based on problem context
+
+---
+
+## Tools & Technologies
 
 * Python
-* Jupyter Notebook
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
+* Pandas and NumPy for data manipulation
+* Scikit-learn for machine learning models
+* Matplotlib for visualization
+* Jupyter Notebook for implementation
 
-## Algorithms Implemented
+---
 
-### 1. Linear Regression
+## Applications
 
-Implementation of linear regression to model relationships between variables and predict continuous values.
+* Defect prediction in manufacturing processes
+* Production performance analysis
+* Process optimization and efficiency improvement
+* Data-driven decision-making in industrial systems
 
-### 2. Multiple Regression
+---
 
-Extension of linear regression using multiple independent variables for prediction.
+## Poster
 
-### 3. Decision Tree
+[View Poster](./ML_Production_Poster.pdf)
 
-Decision tree model used for classification and prediction based on feature splits.
+---
 
-### 4. Random Forest
+## Conclusion
 
-Ensemble learning technique using multiple decision trees to improve prediction accuracy.
+This project demonstrates that machine learning techniques, when combined with statistical analysis, can significantly enhance the understanding of production systems. Selecting the right model and ensuring data quality are critical factors in achieving reliable and accurate results.
 
-### 5. Support Vector Machine (SVM)
-
-Machine learning algorithm used for classification problems.
-
-### 6. Binary Classification
-
-Binary classification model used to classify outcomes into two categories.
-
-### 7. One Hot Encoding
-
-Data preprocessing technique used to convert categorical variables into numerical format for machine learning models.
-
-## Repository Structure
-
-Machine-Learning-Practice
-│
-├── Linear Regression.ipynb
-├── multi Regression.ipynb
-├── Decision Tree.ipynb
-├── Random forest.ipynb
-├── SVM.ipynb
-├── binary classification.ipynb
-├── one hot encoding.ipynb
-└── README.md
-
-## Purpose
-
-This repository is intended for learning and practicing machine learning algorithms and understanding how different models work in real-world datasets.
+---
 
 ## Author
 
 Ramu Battu
 Graduate Student
 California State University, Fresno
+
 
