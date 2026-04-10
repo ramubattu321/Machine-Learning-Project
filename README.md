@@ -69,7 +69,8 @@ These models were implemented and evaluated using Python-based tools.
 
 ## Poster
 
-[View Poster](.POSTER 4 (ML in PDA).pptx)
+[View Poster](## Poster
+[View Poster](./POSTER%204%20(ML%20in%20PDA).pptx)
 
 ---
 
