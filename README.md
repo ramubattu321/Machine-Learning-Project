@@ -1,89 +1,71 @@
-# Machine Learning for Data Science
+# Predictive Analytics & Process Optimization (Machine Learning Research)
 
 ## Overview
+This project applies machine learning techniques to analyze structured datasets and build predictive models for identifying patterns and improving decision-making.
 
-This project focuses on applying machine learning and statistical techniques to analyze production data in manufacturing systems. The goal is to improve prediction accuracy, identify patterns, and support data-driven decision-making for operational efficiency and quality improvement.
-
-Production environments generate large volumes of data such as defect rates, machine performance, and environmental conditions. This project demonstrates how machine learning models can be used to extract insights from such data and enhance process optimization.
-
----
-
-## Research Contribution
-
-This work was presented at the **California Central Valley Research Symposium (2026)** at California State University, Fresno.
-
-The research investigates the role of machine learning algorithms in production data analysis and highlights their effectiveness in solving real-world industrial problems.
+The work was presented at the California Central Valley Research Symposium (2026) at California State University, Fresno.
 
 ---
 
-## Objective
-
-* Analyze production and manufacturing data to identify trends and relationships
-* Develop predictive models for defect detection and performance forecasting
-* Compare multiple machine learning algorithms based on performance
-* Evaluate the impact of data quality and preprocessing on model accuracy
+## Business Context
+Organizations rely on data to improve operational efficiency and reduce errors. This project demonstrates how predictive modeling can be used to analyze complex datasets and support data-driven decision-making.
 
 ---
 
-## Methods & Models
+## Problem Statement
+Analyze structured data to identify patterns, understand key influencing factors, and build predictive models for improved system performance.
 
-The project explores a range of statistical and machine learning techniques:
+---
 
-* **Regression Models**: Linear and multiple regression for predicting continuous outcomes
-* **Decision Tree & Random Forest**: Tree-based models for classification and prediction
-* **Support Vector Machine (SVM)**: Classification using optimal decision boundaries
-* **Gradient Boosting**: Ensemble method that improves prediction by minimizing errors
-* **Data Preprocessing**: One-hot encoding and feature preparation techniques
+## Methodology
 
-These models were implemented and evaluated using Python-based tools.
+### Data Processing
+- Data cleaning and preprocessing  
+- Handling missing and inconsistent values  
+- Feature engineering (encoding categorical variables)
+
+### Exploratory Data Analysis (EDA)
+- Identified trends and relationships in the dataset  
+- Visualized patterns and distributions  
+
+### Modeling
+- Implemented and compared multiple models:
+  - Linear Regression  
+  - Support Vector Machine (SVM)  
+  - Random Forest  
+  - Gradient Boosting  
 
 ---
 
 ## Results
-
-* Ensemble methods such as **Gradient Boosting demonstrated better performance** in capturing complex patterns within production data
-* Model performance varied depending on data quality, feature selection, and noise
-* Some models showed reduced reliability due to limitations such as small sample size and noisy datasets
-* The study highlights the importance of selecting appropriate models based on problem context
+- Ensemble models (Random Forest, Gradient Boosting) captured complex patterns more effectively  
+- Model performance depended heavily on data quality and feature engineering  
+- Highlighted the importance of preprocessing in predictive modeling  
 
 ---
 
 ## Tools & Technologies
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
 
-* Python
-* Pandas and NumPy for data manipulation
-* Scikit-learn for machine learning models
-* Matplotlib for visualization
-* Jupyter Notebook for implementation
+---
+
+## Research Presentation
+Presented at the California Central Valley Research Symposium (2026), demonstrating model comparison and data analysis techniques.
 
 ---
 
 ## Applications
-
-* Defect prediction in manufacturing processes
-* Production performance analysis
-* Process optimization and efficiency improvement
-* Data-driven decision-making in industrial systems
-
----
-
-## Poster
-
-[View Poster](## Poster
-[View Poster](./POSTER%204%20(ML%20in%20PDA).pptx)
-
----
-
-## Conclusion
-
-This project demonstrates that machine learning techniques, when combined with statistical analysis, can significantly enhance the understanding of production systems. Selecting the right model and ensuring data quality are critical factors in achieving reliable and accurate results.
+- Predictive analytics  
+- Pattern detection  
+- Process optimization  
+- Data-driven decision-making  
 
 ---
 
 ## Author
-
-Ramu Battu
-Graduate Student
-California State University, Fresno
-
-
+Ramu Battu  
+MS Data Analytics, California State University, Fresno
