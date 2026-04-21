@@ -1,35 +1,38 @@
-# Predictive Analytics & Process Optimization (Machine Learning Research)
+# Machine Learning for Production Optimization
 
 ## Overview
-This project applies machine learning techniques to analyze structured datasets and build predictive models for identifying patterns and improving decision-making.
+This project applies data analysis and machine learning techniques to analyze structured production data and identify patterns that improve operational efficiency and decision-making.
 
-The work was presented at the California Central Valley Research Symposium (2026) at California State University, Fresno.
+The work was presented at the California Central Valley Research Symposium (2026), California State University, Fresno.
+
+---
+
+## Objective
+- Analyze production data to identify trends and relationships  
+- Understand key factors affecting system performance  
+- Build predictive models for pattern detection and optimization  
 
 ---
 
 ## Business Context
-Organizations rely on data to improve operational efficiency and reduce errors. This project demonstrates how predictive modeling can be used to analyze complex datasets and support data-driven decision-making.
-
----
-
-## Problem Statement
-Analyze structured data to identify patterns, understand key influencing factors, and build predictive models for improved system performance.
+Organizations rely on data to improve efficiency and reduce errors. This project demonstrates how data analysis and predictive modeling can be used to support better operational decisions.
 
 ---
 
 ## Methodology
 
 ### Data Processing
-- Data cleaning and preprocessing  
-- Handling missing and inconsistent values  
-- Feature engineering (encoding categorical variables)
+- Cleaned and preprocessed structured datasets  
+- Handled missing and inconsistent values  
+- Applied feature engineering techniques  
 
 ### Exploratory Data Analysis (EDA)
-- Identified trends and relationships in the dataset  
-- Visualized patterns and distributions  
+- Analyzed relationships between variables  
+- Identified trends affecting production output and defect rates  
+- Visualized patterns using correlation analysis  
 
 ### Modeling
-- Implemented and compared multiple models:
+- Implemented and compared machine learning models:
   - Linear Regression  
   - Support Vector Machine (SVM)  
   - Random Forest  
@@ -38,9 +41,16 @@ Analyze structured data to identify patterns, understand key influencing factors
 ---
 
 ## Results
-- Ensemble models (Random Forest, Gradient Boosting) captured complex patterns more effectively  
-- Model performance depended heavily on data quality and feature engineering  
-- Highlighted the importance of preprocessing in predictive modeling  
+- Ensemble models (Random Forest, Gradient Boosting) performed better in capturing complex patterns  
+- Model performance depended on data quality and feature engineering  
+- Demonstrated importance of preprocessing in predictive modeling  
+
+---
+
+## Business Insights
+- Identified relationships between machine conditions and production output  
+- Highlighted factors contributing to higher defect rates  
+- Supported data-driven decision-making for process optimization  
 
 ---
 
@@ -48,24 +58,59 @@ Analyze structured data to identify patterns, understand key influencing factors
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
-- Matplotlib / Seaborn  
+- Matplotlib, Seaborn  
 - Jupyter Notebook  
 
 ---
 
-## Research Presentation
-Presented at the California Central Valley Research Symposium (2026), demonstrating model comparison and data analysis techniques.
+## Project Structure
+- `visualization.py` – Python script to generate visualizations  
+- `production_data.csv` – dataset used for analysis  
+- `images/` – visualization outputs  
+- `.ipynb` files – model implementation and analysis  
+
+---
+
+## How to Run
+
+1. Install dependencies:
+2. Run the visualization script:
+3. Output will be saved in:
+
+
+---
+
+## Dataset
+The dataset includes production-related variables such as:
+- Temperature  
+- Pressure  
+- Humidity  
+- Machine Hours  
+- Defect Rate  
+- Production Output  
+
+---
+
+## Visualization
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ---
 
 ## Applications
 - Predictive analytics  
-- Pattern detection  
 - Process optimization  
+- Pattern detection  
 - Data-driven decision-making  
 
 ---
 
+## Research Presentation
+Presented at the California Central Valley Research Symposium (2026), demonstrating machine learning applications in production data analysis.
+
+---
+
 ## Author
-Ramu Battu  
+**Ramu Battu**  
 MS Data Analytics, California State University, Fresno
