@@ -1,8 +1,5 @@
 # Applied AI & ML Research: NLP, LLMs, Deep Learning & Production Optimization
 
-**Ramu Battu** — MS in Data Analytics, California State University, Fresno
-📧 ramuusa61@gmail.com | 📍 Fresno, CA, USA | [LinkedIn](#) | [GitHub](https://github.com/ramubattu321) | [Portfolio](#)
-
 > 🏆 Presented at the **California Central Valley Research Symposium (2026)**, California State University, Fresno
 
 ---
@@ -54,9 +51,9 @@ Data Sources
 
 ## Module 1 — Machine Learning for Production Optimization
 
-📓 **Notebooks:** `data_preprocessing.ipynb` · `Linear Regression.ipynb` · `multi Regression.ipynb` · `classification_analysis.ipynb` · `random_forest_model.ipynb` · `svm_model.ipynb` · `decision_tree_model.ipynb`
-📄 **Research Poster:** `machine learning_research_poster.pptx.pdf`
-📊 **Data:** `production_data.csv`
+ **Notebooks:** `data_preprocessing.ipynb` · `Linear Regression.ipynb` · `multi Regression.ipynb` · `classification_analysis.ipynb` · `random_forest_model.ipynb` · `svm_model.ipynb` · `decision_tree_model.ipynb`
+ **Research Poster:** `machine learning_research_poster.pptx.pdf`
+ **Data:** `production_data.csv`
 
 ### Objective
 Predict production performance and identify key performance drivers using supervised machine learning models trained on structured production data.
@@ -109,7 +106,7 @@ Correlation heatmap (`correlation.png`) showing feature relationships:
 
 ## Module 2 — Tokenization, Vector Embedding & Vector Database
 
-📄 **Reference:** `Tokonization_Vector Embedding_Vector Database (Ramu).pptx.pdf`
+ **Reference:** `Tokonization_Vector Embedding_Vector Database (Ramu).pptx.pdf`
 
 ### Objective
 Build an NLP pipeline that transforms raw text into semantically rich vector representations stored in a searchable vector database — enabling context-aware retrieval beyond keyword matching.
@@ -162,7 +159,7 @@ Query → Embedding → Similarity Search → Results
 
 ## Module 3 — NLP: Word Embeddings & Language Model Evaluation
 
-📄 **Reference:** `Natural Language Processing(NLP).pdf`
+ **Reference:** `Natural Language Processing(NLP).pdf`
 
 ### Objective
 Systematically evaluate word representation methods and language model architectures — benchmarking semantic quality and perplexity to identify the strongest approaches for capturing linguistic meaning.
@@ -182,7 +179,7 @@ Systematically evaluate word representation methods and language model architect
 | SCWS | Stanford Contextual Word Similarity |
 | RW | Stanford Rare Words |
 
-> ✅ **GloVe achieved top performance on all five benchmarks**
+>  **GloVe achieved top performance on all five benchmarks**
 
 ### Neural Dependency Parser
 ```
@@ -209,7 +206,7 @@ Input Layer → Hidden Layer (ReLU) → Output Layer (Softmax + Cross-Entropy Lo
 
 ## Module 4 — Fine-Tuning & RAG for LLM Accuracy
 
-📄 **Reference:** `Fine-Tuning & RAG.pdf`
+ **Reference:** `Fine-Tuning & RAG.pdf`
 
 ### Objective
 Reduce LLM hallucination anomaly by implementing and comparing iterative retrieval strategies and adaptive fine-tuning across multiple LLM architectures.
@@ -255,7 +252,7 @@ Composed final answer
 
 ## Module 5 — ML & Deep Learning: Neural Network Architecture Study
 
-📄 **Reference:** `Machine Learning and Deep Learning.pdf`
+ **Reference:** `Machine Learning and Deep Learning.pdf`
 
 ### Objective
 Analyze and compare machine learning and deep learning architectures — understanding how neural networks process information and when deep learning outperforms classical ML.
@@ -300,7 +297,7 @@ Output Layer:   10 nodes   (digits 0–9, Softmax activation)
 
 ## Module 6 — SLM vs. LLM: Architecture, Scaling & Deployment Tradeoff Analysis
 
-📄 **Reference:** `SLM and LLM.pdf`
+ **Reference:** `SLM and LLM.pdf`
 
 ### Objective
 Provide a rigorous technical comparison of Small Language Models (SLMs) and Large Language Models (LLMs) to inform practical deployment decisions for industrial AI systems.
@@ -448,5 +445,3 @@ Presented at the **California Central Valley Research Symposium (2026)**, Califo
 **Ramu Battu**
 MS in Data Analytics — California State University, Fresno
 *Non-Resident Tuition Waiver (NRTW) Scholarship Recipient*
-
-📧 ramuusa61@gmail.com | 📍 Fresno, CA, USA | [LinkedIn](#) | [Portfolio](#)
